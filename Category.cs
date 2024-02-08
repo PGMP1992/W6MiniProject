@@ -11,15 +11,17 @@ namespace MiniProject
     {
         //constructor
         public Category() { }
-        
-        public Category (int id, string name)
+
+
+        //public Category (int id, string name)
+        public Category(string name)
         {
-            Id = id;
+        //    Id = id;
             Name = name;
         }
 
         // Properties 
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Name { get; set; }
         
         //Methods

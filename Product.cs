@@ -9,16 +9,19 @@ namespace MiniProject
     internal class Product
     {
         // Constructor
-        public Product(int catId, string name, double price  )
+        
+        //public Product(int catId, string name, double price  )
+        public Product(string category, string name, double price  )
         {
-            CatId = catId;
+            Cat = category;
+            // CatId = caId; 
             Name = name;
             Price = price;
             
         }
 
         //properties
-        public int CatId { get; set; }
+        public string Cat { get; set; }
         public string Name { get; set; }
         public double Price { get; set; }
         
